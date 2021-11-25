@@ -3,6 +3,7 @@ name: Variables
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 env:
   BUILD_CONFIGURATION: Release
